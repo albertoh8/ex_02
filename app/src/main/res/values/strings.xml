@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ex_02</string>
+    <string name="home">Hello World!</string>
+    <string name="text1">Texto1</string>
+    <string name="text2">Texto2</string>
+    <string name="text3">Texto3</string>
+    <string name="text4">Texto4</string>
+    <string name="name">Nombre</string>
+    <string name="apellido">Apellidos</string>
+    <string name="email">Email</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="fech_nac">Fecha de Nacimiento</string>
+    <string name="guardar">Guardar</string>
+    <string name="recuperar">Recuperar</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="name_hint">Introduce el nombre</string>
+    <string name="apellido_hint">Introduce el apellido</string>
+    <string name="email_hint">Introduce el Email</string>
+
+</resources>

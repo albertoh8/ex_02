@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".presentation.MainActivity"
+    android:gravity="center_horizontal">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:layout_marginTop="@dimen/margin_size_m"/>
+
+    <EditText
+        android:id="@+id/name_text"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name_hint"
+        android:textAlignment="center"
+        android:layout_marginStart="@dimen/margin_size_m"
+        android:layout_marginEnd="@dimen/margin_size_m"
+        android:layout_marginTop="@dimen/margin_size_m"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/apellido"
+        android:layout_marginTop="@dimen/margin_size_m"/>
+
+    <EditText
+        android:id="@+id/surname_text"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/apellido_hint"
+        android:layout_marginStart="@dimen/margin_size_m"
+        android:layout_marginEnd="@dimen/margin_size_m"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/margin_size_m"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:layout_marginTop="@dimen/margin_size_m"/>
+
+    <EditText
+        android:id="@+id/email_text"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_hint"
+        android:layout_marginStart="@dimen/margin_size_m"
+        android:layout_marginEnd="@dimen/margin_size_m"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/margin_size_m"/>
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_size_m"
+        android:layout_marginStart="@dimen/margin_size_m"
+        android:layout_marginTop="@dimen/margin_size_m"
+        android:text="@string/guardar"
+        />
+    <Button
+        android:id="@+id/button_recuperar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_size_m"
+        android:layout_marginStart="@dimen/margin_size_m"
+        android:layout_marginTop="@dimen/margin_size_m"
+        android:text="@string/recuperar"
+        />
+    <Button
+        android:id="@+id/button_limpiar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_size_m"
+        android:layout_marginStart="@dimen/margin_size_m"
+        android:layout_marginTop="@dimen/margin_size_m"
+        android:text="@string/limpiar"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_size_m">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_size_l"
+            android:text="@string/name"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_size_l"
+            android:text="@string/apellido"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_size_l"
+            android:text="@string/email"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_size_m">
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_size_l"
+            android:visibility="invisible"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/user_surname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_size_l"
+            android:visibility="invisible"
+            android:text=""/>
+        <TextView
+            android:id="@+id/user_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_size_l"
+            android:visibility="invisible"
+            android:text=""/>
+
+        <Button
+            android:id="@+id/button_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_size_m"
+            android:visibility="invisible"
+            android:text="@string/eliminar"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
